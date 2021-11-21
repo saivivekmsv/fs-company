@@ -1,0 +1,80 @@
+.header-col{
+    overflow-x: hidden;
+    .carousel-item {
+        height: 400px;
+        display: inline-block;
+    }
+    
+    .carousel-image {
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+    }
+    .welcome-text{
+        position: relative;
+        margin-top: 0.75rem;
+        display: block;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .description-text{
+        position: relative;
+        display: flex;
+        margin-top: 0.3rem;
+        justify-content: center;
+        .description-span{
+            width: 70%;
+            font-size: 0.8rem;
+            font-weight: normal;
+        }
+    
+    }
+    .home-order-cards{
+        display: flex;
+        margin: 2rem 0 2rem 0;
+        justify-content: space-evenly;
+    }
+    .footer-above-image{
+        object-fit: cover;
+        width: 100%;
+        height: 400px;        
+        margin-bottom: 2rem;
+    }
+    .follow-us{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .text-follow {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .follow-icons-container{
+            display: flex;         
+
+            .follow-icons{
+                height: 3rem;
+                width: 3rem;
+                margin: 1rem;
+            }
+        }
+        
+    }
+    .footer {   
+        padding-top: 0.2rem;
+        padding-bottom: 00.4rem;
+        padding-right: 3rem;
+        height: 2rem;
+        width: 100%;
+        background-color: #C4193B;
+        color: #ffffff;
+        text-align: right;
+        .footer-text{
+            font-size: 0.8rem;
+            font-weight: normal;
+        }
+    }
+}
+
+
+

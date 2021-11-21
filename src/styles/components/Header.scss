@@ -1,0 +1,16 @@
+.main-header{
+    background-color: #C4193B;
+    height: 3rem;
+    .header-row{
+        width: 100%;
+        .content-list {
+            display: flex;
+            justify-items: flex-end;
+            justify-content: space-between;
+        }
+    }
+    
+}
+.order-button {
+    margin-left: 0.8rem;
+}

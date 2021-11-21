@@ -1,0 +1,24 @@
+.card-body-styles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    .card-title-style {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .lets-order-button {
+        margin-top: 0.3rem;
+        width: 90%;
+        height: 1.5rem;
+        text-align: center;
+        background-color: #C4040B;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 0.125rem;
+        color: #ffffff;
+    }
+}
+
