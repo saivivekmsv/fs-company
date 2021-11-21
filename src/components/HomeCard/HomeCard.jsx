@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, Col, Row} from "react-bootstrap";
+import {Card} from "react-bootstrap";
 import Restaurant from "../../assets/restaurant.jpg";
 const HomeCard = (props) => {
     return (
