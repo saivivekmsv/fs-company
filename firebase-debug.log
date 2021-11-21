@@ -1,0 +1,65 @@
+[debug] [2021-11-21T11:30:44.708Z] ----------------------------------------------------------------------
+[debug] [2021-11-21T11:30:44.710Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\saivivek.m\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-21T11:30:44.711Z] CLI Version:   9.23.0
+[debug] [2021-11-21T11:30:44.711Z] Platform:      win32
+[debug] [2021-11-21T11:30:44.711Z] Node Version:  v14.16.0
+[debug] [2021-11-21T11:30:44.783Z] Time:          Sun Nov 21 2021 17:00:44 GMT+0530 (India Standard Time)
+[debug] [2021-11-21T11:30:44.783Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-21T11:30:44.893Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-21T11:30:44.893Z] > authorizing via signed-in user (saivivek.msv@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\saivivek.m\Desktop\personnal\fs company\fs-company
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using fs-company. 
+[debug] [2021-11-21T11:30:56.032Z] > refreshing access token with scopes: []
+[debug] [2021-11-21T11:30:56.033Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-21T11:30:56.556Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Sun, 21 Nov 2021 11:30:55 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-21T11:30:56.644Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fs-company [none]
+[debug] [2021-11-21T11:30:57.103Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fs-company 200
+[debug] [2021-11-21T11:30:57.104Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fs-company {"projectId":"fs-company","projectNumber":"577343918423","displayName":"fs-company","name":"projects/fs-company","resources":{"hostingSite":"fs-company","realtimeDatabaseInstance":"fs-company-default-rtdb"},"state":"ACTIVE"}
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2021-11-21T11:30:57.115Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-21T11:30:57.116Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-21T11:30:57.323Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 21 Nov 2021 11:30:55 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-21T11:30:57.409Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/fs-company/services/firebasedatabase.googleapis.com  
+ 
+[debug] [2021-11-21T11:30:59.336Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 21 Nov 2021 11:30:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2021-11-21T11:30:59.341Z] > refreshing access token with scopes: []
+[debug] [2021-11-21T11:30:59.342Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-21T11:30:59.519Z] <<< HTTP RESPONSE 200 {"date":"Sun, 21 Nov 2021 11:30:58 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-21T11:30:59.634Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fs-company [none]
+[debug] [2021-11-21T11:31:00.014Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fs-company 200
+[debug] [2021-11-21T11:31:00.015Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fs-company {"projectId":"fs-company","projectNumber":"577343918423","displayName":"fs-company","name":"projects/fs-company","resources":{"hostingSite":"fs-company","realtimeDatabaseInstance":"fs-company-default-rtdb"},"state":"ACTIVE"}
+[debug] [2021-11-21T11:31:00.018Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-21T11:31:00.018Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-21T11:31:00.264Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 21 Nov 2021 11:30:58 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-21T11:31:00.375Z] >>> HTTP REQUEST GET https://firebasedatabase.googleapis.com/v1beta/projects/fs-company/locations/-/instances/fs-company-default-rtdb  
+ 
